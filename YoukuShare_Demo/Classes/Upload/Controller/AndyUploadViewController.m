@@ -118,7 +118,7 @@
     int fileSize = (int)dict[@"NSFileSize"];
     
     //视频名称
-    [dictM setObject:@"生灵，亦是机器2" forKey:@"title"];
+    [dictM setObject:@"这是测试知道吗" forKey:@"title"];
     //视频标签
     [dictM setObject:@"搞笑,综艺" forKey:@"tags"];
     [dictM setObject:filePath forKey:@"file_name"];

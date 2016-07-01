@@ -10,7 +10,6 @@
 		B6CA54C31CEDC68100ACE01F /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCFDDDF18C0B5DC00069F63 /* JSONKit.m */; };
 		BF4176CA17A69C5000022DF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4176C917A69C5000022DF4 /* Foundation.framework */; };
 		BF4178A317A6A38000022DF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4178A217A6A38000022DF4 /* UIKit.framework */; };
-		BFCFDD6518C09C9800069F63 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BFCFDD6418C09C9800069F63 /* libz.dylib */; };
 		BFCFDD8518C0B5AD00069F63 /* YoukuUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCFDD8118C0B5AD00069F63 /* YoukuUploader.m */; };
 		BFCFDD8618C0B5AD00069F63 /* YoukuUploader.h in Headers */ = {isa = PBXBuildFile; fileRef = BFCFDD8218C0B5AD00069F63 /* YoukuUploader.h */; };
 		BFCFDD8718C0B5AD00069F63 /* YoukuUploaderConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = BFCFDD8318C0B5AD00069F63 /* YoukuUploaderConfig.h */; };
@@ -45,6 +44,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B62B47EF1D267550001E8C68 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B62B47F11D2675AD001E8C68 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
 		BF4176C617A69C5000022DF4 /* libYoukuUploader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYoukuUploader.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4176C917A69C5000022DF4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BF4178A217A6A38000022DF4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -92,7 +93,6 @@
 				BFCFDE4118C0B88900069F63 /* MobileCoreServices.framework in Frameworks */,
 				BFCFDE3F18C0B88200069F63 /* SystemConfiguration.framework in Frameworks */,
 				BFCFDE3D18C0B87A00069F63 /* CFNetwork.framework in Frameworks */,
-				BFCFDD6518C09C9800069F63 /* libz.dylib in Frameworks */,
 				BF4178A317A6A38000022DF4 /* UIKit.framework in Frameworks */,
 				BF4176CA17A69C5000022DF4 /* Foundation.framework in Frameworks */,
 			);
@@ -122,6 +122,8 @@
 		BF4176C817A69C5000022DF4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B62B47F11D2675AD001E8C68 /* libz.1.2.5.tbd */,
+				B62B47EF1D267550001E8C68 /* libz.tbd */,
 				BFCFDE4218C0B8B000069F63 /* CoreGraphics.framework */,
 				BFCFDE4018C0B88900069F63 /* MobileCoreServices.framework */,
 				BFCFDE3E18C0B88200069F63 /* SystemConfiguration.framework */,
