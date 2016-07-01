@@ -1,0 +1,35 @@
+//
+//  YoukuShare_Demo-Prefix.pch
+//  YoukuShare_Demo
+//
+//  Created by 李扬 on 16/5/19.
+//  Copyright © 2016年 andyli. All rights reserved.
+//
+
+#ifndef YoukuShare_Demo_Prefix_pch
+#define YoukuShare_Demo_Prefix_pch
+
+#endif
+
+#define iOS8AndLater ([[UIDevice currentDevice].systemVersion doubleValue] >= 8.0)
+
+// 3.自定义Log
+#ifdef DEBUG
+#define AndyLog(...) NSLog(__VA_ARGS__)
+#else
+#define AndyLog(...)
+#endif
+
+#define MAS_SHORTHAND
+#define MAS_SHORTHAND_GLOBALS
+
+#ifdef __OBJC__
+
+#import "AndyCommon.h"
+#import "MBProgressHUD+Andy.h"
+#import "AndyHttpTool.h"
+#import "DictStore.h"
+#import "Masonry.h"
+
+#endif
+
